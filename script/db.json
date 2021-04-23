@@ -1,0 +1,48 @@
+{
+    "clientes": [
+        {
+            "id": 1,
+            "nome": "Gilberto",
+            "carro": "Fiat Uno"
+        },
+
+        {
+            "id": 2,
+            "nome": "Romário",
+            "carro": "Chevrolet Captiva"
+        },
+
+        {
+            "id": 3,
+            "nome": "Rosana",
+            "carro": "Fiat Punto"
+        },
+
+        {
+            "id": 4,
+            "nome": "Maria",
+            "carro": "Toyota Corolla"
+        }
+    ],
+
+    "funcionarios": [
+        {
+            "id": 1,
+            "nome": "Luiz",
+            "cargo": "Atendente"
+        },
+
+        {
+            "id": 2,
+            "nome": "Lucas",
+            "cargo": "Gerente"
+        },
+
+        {
+            "id": 3,
+            "nome": "Victor",
+            "cargo": "Segurança"
+        }
+       
+    ]
+}

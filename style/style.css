@@ -1,0 +1,238 @@
+*{
+    outline: 0;
+}
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;  
+}
+
+ .cards{
+    display: flex;
+    padding: 15px;
+} 
+
+footer{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #F3F5F8;
+    text-align: center;
+    color: rgba(73, 65, 87, 1);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 50px;
+}
+@media only screen and (max-width: 360px){
+    footer{
+        margin-top: 70px;
+    }
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.tituloCadastro {
+    
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #DC143C;
+    font-family: courier;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.itemsCadastro label{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #DC143C;
+}
+.itemsCadastro input{
+    border-radius: 15px;
+    height: 25px;
+    border-color: rgba(73, 65, 87, 1);
+}
+.itemsCadastro select{
+    border-radius: 15px;
+}
+.itemsCadastro button{
+    
+    border-radius: 35px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer; 
+    color: white;
+    background-color: #DC143C;
+    border: 0px;  
+    transition: all .2s;
+    font-family: monospace;
+}
+
+/* form div:nth-child(2) div{
+    display: flex;
+    justify-content: center;
+} */
+.box{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: justify;
+    border: 2px solid #DC143C;
+    width: 300px;
+    height: 150px;
+}
+.anuncios{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: initial;
+    border-radius: 10px;
+    margin-top: 30px;
+    gap: 30px;
+  
+}
+
+.anunciocompleto {
+    display: flex;
+    justify-content: center;
+}
+
+.anuncio {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flexbox;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    height: 350px;
+}
+.anuncio a{
+    text-decoration: none;
+    color: #DC143C;
+    font-weight: bold;
+}
+.anuncio img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.botao button{
+    border-radius: 35px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer; 
+    color: white;
+    background-color: #DC143C;
+    border: 0;  
+    transition: all .2s;
+    font-family: monospace;
+}
+.botao button:hover{
+    background-color: rgba(73, 65, 87, 0.8);
+    transform: scale(1.0);
+}
+.boxcarro{
+    padding: 5px;
+    text-align: justify;
+    border: 5px solid #DC143C;
+    border-radius: 10px;
+}
+.suporte{
+    
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.suporte form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.suporte input{
+    border: 2px solid #DC143C;
+    border-radius: 15px;
+    height: 25px;
+}
+.suporte textarea{
+    border: 2px solid #DC143C;
+    border-radius: 15px;
+}
+.suporte label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(73, 65, 87, 1);
+}
+.suporte button{
+    border-radius: 35px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer; 
+    color: white;
+    background-color: #DC143C;
+    border: 0;  
+    transition: all .2s;
+    font-family: monospace;
+}
+.suporte h2{
+    font-family: Courier, monospace;
+    text-align: center;
+    color:#DC143C;
+    font-size: 35px;
+}
+.imgCentralizada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoComprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    width: 180px;
+    height: 50px;
+    cursor: pointer; 
+    color: white;
+    background-color: #DC143C;
+    border: 0;  
+    transition: all .2s;
+    font-family: monospace;
+    font-size: 20px;
+}
+.botaoCentralizado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 50px;
+    background-color: #F3F5F8;
+}
+.card img{
+    width: 100% !important;
+    height: 70% !important;
+}
+.nav-link{
+    margin-right: 15px;
+    color: black !important;
+}
+ul1{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 50px;
+    background-color: #F3F5F8;
+}
